@@ -1,4 +1,4 @@
-import { GameFrame } from "@/components/game-frame"
+import { GameFrame } from "@/components/game-frame";
 
 export default function Page() {
   return (
@@ -11,17 +11,6 @@ export default function Page() {
             </div>
             <h1 className="text-xl font-bold text-foreground">Game Portal</h1>
           </div>
-          <nav className="hidden md:flex items-center gap-6">
-            <a href="#" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
-              Play
-            </a>
-            <a href="#" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
-              Leaderboard
-            </a>
-            <a href="#" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
-              About
-            </a>
-          </nav>
         </div>
       </header>
 
@@ -35,20 +24,10 @@ export default function Page() {
             <p className="text-sm text-muted-foreground">
               Built with <span className="text-accent">♥</span> and GDevelop
             </p>
-            <div className="flex items-center gap-4">
-              <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                Help
-              </a>
-              <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                Controls
-              </a>
-              <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                Share
-              </a>
-            </div>
+            <div className="flex items-center gap-4"></div>
           </div>
         </div>
       </footer>
     </div>
-  )
+  );
 }
